@@ -4,6 +4,7 @@ import ActionButton from "@/shared/ActionButton";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import HomePage from "@/assets/home.png";
 
+
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;
 }
