@@ -1,4 +1,4 @@
-import useMediaQuery from "@/hooks/useMediaQuery";
+// import useMediaQuery from "@/hooks/useMediaQuery";
 import { SelectedPage } from "@/shared/types";
 import ActionButton from "@/shared/ActionButton";
 import AnchorLink from "react-anchor-link-smooth-scroll";
@@ -10,7 +10,7 @@ type Props = {
 }
 
 const Home = ({ setSelectedPage }: Props) => {
-    const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
+    // const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
 
   return <section
   id="home"
